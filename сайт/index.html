@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta CHARSET="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Корпусная лингвистика</title>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Меню навигации</button>
+  <ul class="nav">
+  <div class="dropdown-child">
+	<li><a href="index.html"> Введение в корпусную лингвистику</a>
+		<ul>
+      <li><a href="index.html#history">История</a></li>
+      <li><a href="index.html#definition">Основные понятия</a></li>
+		</ul>
+	</li>
+    <li><a href="page_2.html">Классификация корпусов</a></li>
+    <li><a href="page_3.html">Требования к корпусам</a></li>
+    <li><a href="page_4.html">Аннотирование корпусов</a></li>
+    <li><a href="page_5.html">Мировые языковые корпусы</a></li>
+    <li><a href="page_6.html">Библиографический список</a></li>
+	<li><a href="page_7.html">Тестирование</a></li>
+  </div>
+  </ul>
+</div>
+<header> 
+<div><h1 class="first"> Введение в корпусную лингвистику</h1></div>
+<hr/> 
+</header>
+<div class="container">
+<table border = "1">
+	<tr>
+	<td>
+	<section class="second"> <iframe width="480" height="270" src="https://www.youtube.com/embed/ico0zGpiBzc" allow="autoplay; encrypted-media"></iframe>
+		<h3><a id="history"></a> История развития </h3> 
+		<p> История корпусной лингвистики началась ещё задолго до появления первых ЭВМ. Но, несмотря на это, при составлении сборников в доцифровом периоде исследователи пользовались теми же методами, что и сейчас, разница была лишь в объёме и методе хранения информации. </p>
+		<p> Многие из них были связаны со священными книгами различных религий. Например, самым популярным стал корпус библейских текстов. Первый <a href="index.html#concordia">конкорданс</a> же появился в начале XIII века и назывался «Concordantiae morales sacrae scripturae».</p>
+		<p> Впервые корпусами текстов в рамках компьютерной лингвистики учёные заинтересовались ещё в 60-х годах прошлого столетия, и связано это с появлением первых компьютеров и с активным развитием информационных технологий. </p>
+		<p> Самым первым большим компьютерным корпусом можно считать <a href="https://the.sketchengine.co.uk/corpus/first_form?corpname=preloaded/brown_1;align=" target="_blank">Брауновский корпус</a>, собранный как раз в 1960-х учёными У. Н. Френсисом и Г. Кучерой. Именно с него началась активная разработка электронных баз хранения текстовых данных. Данный корпус задал эталон в 1 миллион словоупотреблений для создания таких же сборников на других языках. </p>
+		<p> Следующей ступенью развития корпусной лингвистики были разработки более массивных корпусов, таких как <a href="http://www.natcorp.ox.ac.uk/" target="_blank">The British National Corpus</a> и <a href="http://cfrl.ruslang.ru/" target="_blank">Машинный фонд русского языка</a>  – проект СССР, созданный в 1985 по инициативе А. П. Ершова. Опыт создания данного массива данных используется при разработке и усовершенствовании <a href="http://www.ruscorpora.ru/" target="_blank">Национального корпуса русского языка</a>. </p>
+		<p> The British National Corpus – был и по сей день является одним из самых больших сборников текстов на одном языке, а <a href="https://corpus.byu.edu/coca/" target="_blank">Corpus of Contemporary American English</a>  включает в себя около 450 миллионов слов и является самым большим сборником текстов американского варианта английского языка.  </p>
+		<p> <a href="http://corpus.zhonghuayuwen.org/" target="_blank">汉语语料库</a> (Hànyǔ yǔliàokù) – китайский корпус текстов, созданный в 2011 году и активно пополняющийся и по сей день. Кроме того, что он включает в себя постоянно пополняющийся сборник текстов, он является самым большим хранилищем корпусы Древнего китайского языка и содержит около ста миллионов его словоупотреблений.</p>
+		<p> В настоящее время корпусная лингвистика успешно сформировалась как раздел науки о языке, тесно связанный как с языкознанием, так и с компьютерной лингвистикой, использующей в своих исследованиях достижения современной науки. </p> 
+	</section>
+	
+	<section class="second"> 
+		<h3><a id="definition"></a>Основные понятия корпусной лингвистики  </h3>
+		<p> <strong><a id="problem"></a>Проблемная область </strong>  – это совокупность всех сущностей, являющихся объектом интереса, которые были, есть и когда-либо могут быть. </p>		
+		<p> <strong> Корпус </strong> – систематическая коллекция естественно встречающегося языка (как устного, так и письменного). Причём «систематическая» значит, что структура и содержание корпуса подчиняются определённым экстралингвистическим принципам.</p>
+		<p> <strong> Языковые данные </strong>  – реальные факты использования языковых единиц в речевой коммуникации.</p>
+		<p> <strong> Единица хранения </strong> – некоторая совокупность естественно-языковых выражений проблемной области, которой противопоставляются описания на некотором метаязыке, определяемом процедурой формирования корпуса – определяется конечным результатом, и по ней можно понять, с какой целью был создан корпус.</p>
+		<p> <strong><a id="corpus"></a>Корпус текстов </strong> – это информационно-сравнительная система, основанная на собрании устных или письменных текстов на некотором языке, представленная в стандартизированной и унифицированной электронной форме, предназначенная для отражения лингвистической реальности.</p>
+		<p> <strong> Корпус-менеджер </strong> – средство, осуществляющее управление текстовыми или лингвистическими данными внутри корпуса.</p>
+		<p> <strong><a id="concordia"></a>Конкорданс </strong>  – список слов с указанием контекста их употребления.</p>
+		<p> <strong><a id="annotation"></a>Разметка (или аннотирование) </strong> – приписывание текстам и их компонентам специальных тегов.</p>
+		<p> <strong><a id="n-gram"></a> N-граммы </strong>  – это цепочки, состоящие из идущих подряд двух, трёх, четырёх и т. д. токенов.</p>
+		<p> <strong><a id="interface"></a>Интерфейс </strong>  - совокупность средств, методов и правил взаимодействия между элементами системы.</p>
+		<p> <strong><a id="estlan"></a>Естественный язык</strong> - язык, используемый для общения людей и не созданный целенаправленно (в отличие от искусственных языков).</p>
+	</section>
+		<h3>Тестирование </h3>
+<form class="second">	
+  <p><strong>Вопрос №1:</strong> В каком году был собран Брауновский корпус?</p>
+    <label><input type="radio" name="year" value="1"/>1960</label><br/>
+    <label><input type="radio" name="year" value="0"/>1980</label><br/>
+    <label><input type="radio" name="year" value="0"/>1900</label><br/>
+    <label><input type="radio" name="year" value="0"/>2001</label>
+	
+  <p><strong>Вопрос №2:</strong> Как назывался первый конкорданс?</p>
+    <label><input type="radio" name="how" value="1"/>"Concordantiae morales sacrae scripturae"</label><br/>
+    <label><input type="radio" name="how" value="0"/>"Heu conscienta animi gravis est servitus"</label><br/>
+    <label><input type="radio" name="how" value="0"/>"Cogitationes poenam nemo patitur"</label><br/>
+    <label><input type="radio" name="how" value="0"/>"Omne ignotum pro magnifico est"</label>
+
+  <p><strong>Вопрос №3:</strong> Список слов с указанием контекста их употребления - это </p>
+  <select name="definition1">
+    <option value="0">Разметка </option>
+    <option value="1">Конкорданс</option>
+    <option value="0">Корпус</option>
+  </select>
+  
+  <p><strong>Вопрос №4:</strong> Реальные факты использования языковых единиц в речевой коммуникации - это </p>
+  <select name="definition2">
+    <option value="0">Корпус-менеджер</option>
+    <option value="0">Разметка</option>
+    <option value="1">Языковые данные</option>
+  </select>
+	<br><br>
+    <input type="button" id="calc" value="Подсчитать баллы">
+    <input type="reset" value="Сброс">
+   <p> Итого баллов:  <input type="text" size="2" name="result" readonly> </p>
+</form>
+</td>
+</tr>
+</div>
+  <script>
+	calc.onclick = function(){
+		var myform = this.form;	
+	  myform.result.value = +myform.how.value + +myform.year.value + +myform.definition1.value + +myform.definition2.value;
+   }; 
+
+</script>
+<footer> 
+	<div id="footer">
+        <span>Выполнила: Студентка группы ЛМ-137 Савельева Арина leinshepard@gmail.com</span>
+	</div>
+</footer>
+</body>
+</html>

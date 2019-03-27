@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta CHARSET="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Корпусная лингвистика</title>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Меню навигации</button>
+  <ul class="nav">
+  <div class="dropdown-child">
+	<li><a href="index.html"> Введение в корпусную лингвистику</a>
+		<ul>
+      <li><a href="index.html#history">История</a></li>
+      <li><a href="index.html#definition">Основные понятия</a></li>
+		</ul>
+	</li>
+    <li><a href="page_2.html">Классификация корпусов</a></li>
+    <li><a href="page_3.html">Требования к корпусам</a></li>
+    <li><a href="page_4.html">Аннотирование корпусов</a></li>
+    <li><a href="page_5.html">Мировые языковые корпусы</a></li>
+    <li><a href="page_6.html">Библиографический список</a></li>
+	<li><a href="page_7.html">Тестирование</a></li>
+  </div>
+  </ul>
+</div>
+<header> 
+<div><h1 class="first"> Требования к корпусам </h1></div>
+<hr/> 
+</header>
+<div class="container">
+<table border = "1">
+	<tr>
+	<td>
+	<section class="second"> <iframe width="480" height="270" src="https://www.youtube.com/embed/lvLS7VWJhbM" allow="autoplay; encrypted-media"></iframe>
+		<h3> Репрезентативность </h3>
+	<p>Самым первым значимым требованием и, соответственно, свойством хорошо сформированного корпуса является его <i>репрезентативность</i>, то есть способность корпуса текстов отражать все свойства <a href="index.html#problem">проблемной области</a>, релевантные для данного типа лингвистического исследования. Это необходимо-достаточное и пропорциональное представление в корпусе текстов различных периодов, жанров, стилей, авторов и т.п. Одним из способов достижения репрезентативности является стратификационная выборка, позволяющая ограничить объём выборки из какой-либо предметной области.</p> 
+		<h3> Сбалансированность </h3>
+	<p><i>Сбалансированность</i> предполагает, что количество материала должно быть таким, чтобы оно равномерно покрывало все сферы жизнедеятельности человека, а в более узком смысле содержало в себе тексты из всех жанров литературы, возможно, относящиеся к разным эпохам.</p>
+		<h3> Прагматика </h3>
+	<p>Это практическое назначение какого-либо сборника, его нацеленность на достижение какой-либо цели и получение определённого конечного результата.</p>
+		<h3> Полнота </h3>
+	<p><i>Полнота</i> позволяет определить степень полезности информации, её способности служить для точного определения чего-либо. Этот критерий тесно связан со сбалансированностью.</p>
+		<h3> Объём </h3>
+	<p>Для того, чтобы иметь возможность здраво оценивать возможности того или иного корпусы, нужно понимать, какие именно тексты в него входят и их примерное соотношение. Когда был создан первый большой электронный корпус текстов, был принят эталон в 1 миллион словоупотреблений.  «Информация и об общем <i>объёме</i> корпуса, и о количестве извлечённых из текста примеров должна быть доступна пользователю, чтобы он мог использовать «сырые» цифры или применять более сложные формулы лингвистической статистики»[<a href="page_6.html#3">3</a>,С.10-13]</p>
+		<h3> Компьютерная поддержка </h3>
+	<p>Последним ключевым требованием считается <i>компьютерная поддержка</i> корпусов данных или же его <i>электронный формат</i>. Это не обязательный критерий, но он определяет дальнейшие возможности сборника, его развитие в условиях использования современных электронных устройств. Кроме того, определяющим является способность корпуса поддерживать комплекс программ по обработке данных, обеспечивающих функции составления конкордансов, статистической инвентаризации и др. </p>
+		<h3>Тестирование </h3> 
+	</section>
+<form class="second">
+<p><strong>Вопрос №1:</strong> Практическое назначение какого-либо сборника - это</p>
+    <label><input type="radio" name="pov" value="0"/>Полнота</label><br/>
+    <label><input type="radio" name="pov" value="0"/>Репрезентативность</label><br/>
+    <label><input type="radio" name="pov" value="0"/>Сбалансированность</label><br/>
+    <label><input type="radio" name="pov" value="1"/>Прагматика</label>	
+	
+	<p><strong>Вопрос №2:</strong> Современные корпусы текстов преимущественно находятся в</p>
+	<select name="definition1">
+    <option value="0">печатном варианте</option>
+    <option value="1">электронном варианте</option>
+    <option value="0">голове лингвиста</option>
+  </select>
+	
+	<p><strong>Вопрос №3:</strong> Цепочки, состоящие из идущих подряд двух, трёх, четырёх и т. д. токенов - это</p>
+    <label><input type="radio" name="vop" value="0"/>Корпус</label><br>
+    <label><input type="radio" name="vop" value="0"/>Корпус-менеджер</label><br>
+    <label><input type="radio" name="vop" value="1"/>N-Граммы</label><br>
+    <label><input type="radio" name="vop" value=""/>Аннотации</label>	
+	
+	<p><strong>Вопрос №4:</strong> Какой объём словоупотреблений стал эталоном в корпусной линггвистике?</p>
+	<select name="definition2">
+    <option value="1">1 миллион</option>
+    <option value="0">100 тысяч</option>
+    <option value="0">1 миллиард</option>
+	<option value="0">10 миллионов</option>
+  </select>
+	<br/><br/>
+    <input type="button" id="calc" value="Подсчитать баллы">
+    <input type="reset" value="Сброс">	
+	<p> Итого баллов:  <input type="text" size="2" name="result" readonly> </p>
+   <h4>*БОНУСНЫЙ ВОПРОС*</h4>
+   
+	<p><strong>Вопрос №5:</strong> Укажите главные требования, предъявляемые к корпусам текстов.</p>
+   <input type="checkbox" id="check0" value="1" />Репрезентативность<br/>
+   <input type="checkbox" id="check1" value="0" />Дешевизна<br/>
+   <input type="checkbox" id="check2" value="0" />Яркость<br/>
+   <input type="checkbox" id="check3" value="1" />Сбалансированность<br/>
+   <br/>
+    <input type="button" value="Результат" onclick="countChecked();"/>
+	<input type="reset" value="Сброс">
+	<p>Итого баллов: <input type="text" id="myTotal" size="2" readonly></p>
+  
+</form>	
+</td>
+</tr>
+</div>
+<script>
+
+calc.onclick = function(){
+		var myform = this.form;	
+	  myform.result.value = +myform.vop.value + +myform.pov.value + +myform.definition1.value + +myform.definition2.value;
+   }; 
+   function countChecked(){
+	var checkedVal = 0; 
+	for(var i=0;i<4;i++){
+	 myObj = document.getElementById('check'+i); 
+	 if(myObj.checked==true){
+checkedVal = checkedVal + parseInt(myObj.value); 
+}
+	}
+	document.getElementById('myTotal').value = checkedVal;
+   }
+
+</script>
+<footer> 
+	<div id="footer">
+        <span>Выполнила: Студентка группы ЛМ-137 Савельева Арина leinshepard@gmail.com</span>
+	</div>
+</footer>
+</body>
+</html>

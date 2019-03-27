@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta CHARSET="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Корпусная лингвистика</title>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Меню навигации</button>
+  <ul class="nav">
+  <div class="dropdown-child">
+	<li><a href="index.html"> Введение в корпусную лингвистику</a>
+		<ul>
+      <li><a href="index.html#history">История</a></li>
+      <li><a href="index.html#definition">Основные понятия</a></li>
+		</ul>
+	</li>
+    <li><a href="page_2.html">Классификация корпусов</a></li>
+    <li><a href="page_3.html">Требования к корпусам</a></li>
+    <li><a href="page_4.html">Аннотирование корпусов</a></li>
+    <li><a href="page_5.html">Мировые языковые корпусы</a></li>
+    <li><a href="page_6.html">Библиографический список</a></li>
+	<li><a href="page_7.html">Тестирование</a></li>
+  </div>
+  </ul>
+</div>
+<header> 
+<div><h1 class="first"> Мировые языковые корпусы </h1></div>
+<hr/> 
+</header>
+<div class="container">
+<table border = "1">
+	<tr>
+	<td>
+	<section class="second"> <h3> Национальный корпус русского языка (НКРЯ)</h3> 
+	<img class="slider" src="рис5_0.jpg" width="480" height="270" alt="" onclick=imgchange(this,"рис5_1.jpg","рис5_2.jpg")>
+	<p><a href="http://www.ruscorpora.ru/" target="_blank">Этот</a> корпус в настоящий момент является самым крупным сборником текстов на русском языке, имеет разветвлённую сеть семантической разметки и позволяет делать поиск по множеству специфических критериев.</p>
+	<p>Главной его особенностью является не только многофункциональность, но и возможность извлечения лингвистической информации из текстов, написанных в любой интересующий исследователя промежуток времени. Пример того, что в корпусе НКРЯ можно увидеть исторический подкорпус, включающий в себя тексты на древнерусском, старорусском и церковнославянском языке, включая также информацию, найденную на берестяных грамотах.</p>
+	<p>НКРЯ имеет возможность поиска групп словоупотреблений, которые когда-либо встречались в текстах на русском языке. Для этого существует поисковая система по <a href="index.html#n-gram"> n-граммам</a>. Такая система позволяет не только определять расстояние между словоупотреблениями, но и акцентировать внимание поисковика на лексике, грамматике и пунктуации.</p>
+	</section>
+	<section class="second"><h3> Corpus of Contemporary American English (COCA)</h3> 
+	<img class="slider" src="рис5_31.jpg" width="480" height="270" alt="" onclick=imgchange(this,"рис5_3.jpg","рис5_4.jpg")>
+	<p><a href="https://corpus.byu.edu/coca/">COCA</a> был создан в 2000-2003 годах на основе публикаций журнала Time, написанных с 1923 года, и составлен он из более чем ста шестидесяти тысяч текстов с 1990 по 2011. Особенностью данного корпуса является именно возможность выбора между несколькими видами источников информации. Например, доступен поиск по текстам интервью известных личностей, что даёт возможность изучить их манеру речи, преобладающие в лексиконе слова и наиболее интересующие темы. </p>
+	<p>COCA может активно использоваться не только лингвистами, преследующими только исследовательские цели в рамках языкознания, но и журналистами, политиками, даже простыми гражданами, желающими узнать больше, возможно, о манере речи президента США. </p>
+	</section>
+	<section class="second"><h3> 汉语语料库 (Hànyǔ yǔliàokù)</h3>
+	<img class="slider" src="рис5_55.jpg" width="480" height="270" alt="" onclick=imgchange(this,"рис5_5.jpg","рис5_6.jpg")>
+	<p>В Китай корпусная лингвистика пришла сравнительно недавно, но в Поднебесной уже начали формироваться огромные по охвату материала корпусы текстов. Одним из таких сборников является <a href="http://corpus.zhonghuayuwen.org/" target="_blank">汉语语料库</a>. Он включает в себя две части: корпус современного китайского языка, до сих пор пополняющийся, и коллекцию древних китайских текстов.</p>
+	<p>Тексты второго подкорпуса собраны со времён династий 周朝 (Zhōu Cháo) и 清朝 (Qīng Cháo), а большинство из них были взяты из 四庫全書 (Sì kù quánshū) – собрания книг по четырём разделам: «Классики», «История», «Мастера» и «Собрания». </p>
+	<p>Китайский корпус древних текстов <a href="http://corpus.zhonghuayuwen.org/ACindex.aspx">古代汉语语料</a> не размечен, что создаёт определённые сложности при поиске нужной информации. Например, можно посмотреть какое-либо слово и его конкорданс, но понять к какой части речи оно относится, и какие морфологические признаки имеет, не представляется возможным. Это возможно сделать в корпусе <a href="http://corpus.zhonghuayuwen.org/CnCindex.aspx">现代汉语语料库</a> (Xiàndài hànyǔ yǔliàokù).</p>
+	<h3 >Тестирование </h3> 
+</section>	
+	<form class="second">
+<p><strong>Вопрос №1:</strong> Какой корпус является самым крупным сборником текстов на русском языке?</p>
+    <label><input type="radio" name="pov" value="0"/>COCA </label><br>
+    <label><input type="radio" name="pov" value="0"/>БКРС</label><br>
+    <label><input type="radio" name="pov" value="1"/>НКРЯ</label><br>
+    <label><input type="radio" name="pov" value="0"/>КРЯ-КРЯ</label>	<!--первое появление уточки -->
+	
+	<p><strong>Вопрос №2:</strong> Есть ли в НКРЯ информация с берестяных грамот? </p>
+	<select name="definition1">
+    <option value="0">нет</option>
+    <option value="1">да</option>
+    <option value="0">время от времени</option>
+	<option value="10">я уточка</option> <!-- уточки умнее всех -->
+  </select>
+	
+	<p><strong>Вопрос №3:</strong> На основе какого журнала был создан COCA? </p>
+    <label><input type="radio" name="vop" value="0"/>Times New Roman</label><br>
+    <label><input type="radio" name="vop" value="0"/>VOGUE </label><br>
+    <label><input type="radio" name="vop" value="1"/>Times</label><br>
+    <label><input type="radio" name="vop" value="0"/>Микки Маус</label>	<!-- и Дональд DUCK хе-хе-->
+	
+	<p><strong>Вопрос №4:</strong> Размечен ли 古代汉语语料?</p>
+	<select name="definition2">
+    <option value="0">да</option>
+    <option value="1">нет</option>
+    <option value="0">что?</option>		<!-- уточка не знает таких сложных слов -->
+	<option value="0">линейкой, да</option>
+  </select>
+	<br/><br/>
+    <input type="button" id="calc" value="Подсчитать баллы">
+    <input type="reset" value="Сброс">	
+	<p> Итого баллов:  <input type="text" size="2" name="result" readonly> </p>
+   <h4>*БОНУСНЫЙ ВОПРОС*</h4>
+   
+	<p><strong>Вопрос №5:</strong> Со времен каких династий собраны тексты в 古代汉语语料?</p> <!-- уточка не знает китайский :с -->
+   <input type="checkbox" id="check0" value="0" />明朝<br/>
+   <input type="checkbox" id="check1" value="0" />隋朝<br/>
+   <input type="checkbox" id="check2" value="1" />周朝<br/> 
+   <input type="checkbox" id="check3" value="1" />清朝<br/>
+   <br/>
+    <input type="button" value="Результат" onclick="countChecked();"/>
+	<input type="reset" value="Сброс">
+	<p>Итого баллов: <input type="text" id="myTotal" size="2" readonly></p>
+</form>	
+</td>
+</tr>
+</div>
+<script>
+  var x=false
+  function imgchange(obj,imgX,imgY,) {
+   if  (x){
+   obj.src=imgX
+   } else {
+   obj.src=imgY
+   }
+  x=!x
+ }
+ calc.onclick = function(){
+		var myform = this.form;	
+	  myform.result.value = +myform.vop.value + +myform.pov.value + +myform.definition1.value + +myform.definition2.value;
+   }; 
+function countChecked(){
+	var checkedVal = 0; 
+	for(var i=0;i<4;i++){
+	 myObj = document.getElementById('check'+i); 
+	 if(myObj.checked==true){
+checkedVal = checkedVal + parseInt(myObj.value); 
+}
+	}
+	document.getElementById('myTotal').value = checkedVal;
+   }
+
+ </script>
+<footer> 
+	<div id="footer">
+        <span>Выполнила: Студентка группы ЛМ-137 Савельева Арина leinshepard@gmail.com</span>
+	</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta CHARSET="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Корпусная лингвистика</title>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Меню навигации</button>
+  <ul class="nav">
+  <div class="dropdown-child">
+	<li><a href="index.html"> Введение в корпусную лингвистику</a>
+		<ul>
+      <li><a href="index.html#history">История</a></li>
+      <li><a href="index.html#definition">Основные понятия</a></li>
+		</ul>
+	</li>
+    <li><a href="page_2.html">Классификация корпусов</a></li>
+    <li><a href="page_3.html">Требования к корпусам</a></li>
+    <li><a href="page_4.html">Аннотирование корпусов</a></li>
+    <li><a href="page_5.html">Мировые языковые корпусы</a></li>
+    <li><a href="page_6.html">Библиографический список</a></li>
+	<li><a href="page_7.html">Тестирование</a></li>
+  </div>
+  </ul>
+</div>
+<header> 
+<div><h1 class="first"> Тестирование </h1></div>
+<hr/> 
+</header>
+<div class="container1">
+<table border = "1">
+	<tr>
+	<td>
+<form class="second">
+	<p><strong>Вопрос №1:</strong> Из каких текстов собирали первые корпусы?</p>
+    <label><input type="radio" name="pov" value="0"/>Художественных</label><br>
+    <label><input type="radio" name="pov" value="1"/>Религиозных</label><br>
+    <label><input type="radio" name="pov" value="0"/>Научных</label><br>
+    <label><input type="radio" name="pov" value="0"/>Публицистических</label>	
+	
+	<p><strong>Вопрос №2:</strong> В каком году создали Машинный фонд русского языка?</p>
+	<select name="definition1">
+    <option value="0">1961</option>
+    <option value="0">1966</option>
+    <option value="1">1985</option>
+	<option value="0">1990</option>
+  </select>
+  <p><strong>Вопрос №3:</strong> С чем связано наало разработки корпусов текстов?</p>
+    <label><input type="radio" name="vop" value="0"/>Холодная война</label><br>
+    <label><input type="radio" name="vop" value="0"/>Изобретение атомной бомбы</label><br>
+    <label><input type="radio" name="vop" value="1"/>Появление первых компьютеров</label><br>
+    <label><input type="radio" name="vop" value="0"/>Всемирный заговор</label>	
+	
+	<p><strong>Вопрос №4:</strong> Другими словами, свойство репрезентативности - это</p>
+	<select name="definition2">
+    <option value="0">полнота</option>
+    <option value="1">достаточность</option>
+    <option value="0">объёмность</option>
+	<option value="0">прагматика</option>
+  </select>
+  <p><strong>Вопрос №5:</strong> По параллельности корпусы бывают</p>
+   <input type="checkbox" id="check0" value="1" />Переводные<br>
+   <input type="checkbox" id="check1" value="0" />Разговорные<br>
+   <input type="checkbox" id="check2" value="1" />Сопоставимые<br>
+   <input type="checkbox" id="check3" value="0" />Полнотекстовые<br>
+  
+  <p><strong>Вопрос №6:</strong> Одно из основных правил аннотирования: интерфейс должен быть ...</p>
+    <label><input type="radio" name="opv" value="0"/>Расширенным</label><br>
+    <label><input type="radio" name="opv" value="0"/>Дружелюбным</label><br>
+    <label><input type="radio" name="opv" value="1"/>Дружественным</label><br>
+    <label><input type="radio" name="opv" value="0"/>Многоуровневым</label>	
+	
+	<p><strong>Вопрос №7:</strong> По полноте представления информации различают корпусы:</p>
+   <input type="checkbox" id="check4" value="1" />Представительные<br>
+   <input type="checkbox" id="check5" value="0" />Речевые<br>
+   <input type="checkbox" id="check6" value="1" />Мониторинговые<br>
+   <input type="checkbox" id="check7" value="0" />Диахронические<br>
+   
+	<p><strong>Вопрос №8:</strong> В какие годы разрабатывался COCA?</p>
+	<select name="definition3">
+    <option value="1">2000-2003</option>
+    <option value="0">2005-2008</option>
+    <option value="0">2008-2010</option>
+	<option value="0">2000-2004</option>
+    </select>
+  
+	<p><strong>Вопрос №9:</strong> Откуда были взяты тексты 古代汉语语料?</p>
+    <label><input type="radio" name="pvo" value="0"/>全書庫四</label><br>
+    <label><input type="radio" name="pvo" value="0"/>四全書庫</label><br>
+    <label><input type="radio" name="pvo" value="1"/>四庫全書</label><br>
+    <label><input type="radio" name="pvo" value="0"/>全書四庫</label>	
+	
+	<p><strong>Вопрос №10:</strong> НКРЯ включает в себя тексты на:</p>
+   <input type="checkbox" id="check8" value="0" />Санскрите<br>
+   <input type="checkbox" id="check9" value="1" />Церковнославянском<br>
+   <input type="checkbox" id="check10" value="0" />Латинском<br>
+   <input type="checkbox" id="check11" value="1" />Древнерусском<br>
+	<br/>
+	<input type="button" id="calc" value="Подсчитать баллы">	
+	<p> Итого баллов:  <input type="text" size="2" name="result" readonly></p>
+	
+	 <input type="button" value="Результат" onclick="countChecked();"/>
+	<input type="reset" value="Сброс">
+	<p>Посчитать checkbox: <input type="text" id="myTotal" size="2" readonly></p>
+</form>	
+</td>
+</tr>
+</div>
+<script>
+ calc.onclick = function(){
+		var myform = this.form;	
+	  myform.result.value = +myform.pov.value + +myform.definition1.value + +myform.vop.value + +myform.definition2.value + +myform.opv.value + +myform.definition3.value + +myform.pvo.value;
+   }; 
+function countChecked(){
+	var checkedVal = 0; 
+	for(var i=0;i<12;i++){
+	 myObj = document.getElementById('check'+i); 
+	 if(myObj.checked==true){
+checkedVal = checkedVal + parseInt(myObj.value); 
+}
+	}
+	document.getElementById('myTotal').value = checkedVal;
+   }
+</script>	
+<footer> 
+	<div id="footer">
+        <span>Выполнила: Студентка группы ЛМ-137 Савельева Арина leinshepard@gmail.com</span>
+	</div>
+</footer>
+</body>	
+</html>	

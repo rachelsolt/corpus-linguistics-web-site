@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta CHARSET="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Корпусная лингвистика</title>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Меню навигации</button>
+  <ul class="nav">
+  <div class="dropdown-child">
+	<li><a href="index.html"> Введение в корпусную лингвистику</a>
+		<ul>
+      <li><a href="index.html#history">История</a></li>
+      <li><a href="index.html#definition">Основные понятия</a></li>
+		</ul>
+	</li>
+    <li><a href="page_2.html">Классификация корпусов</a></li>
+    <li><a href="page_3.html">Требования к корпусам</a></li>
+    <li><a href="page_4.html">Аннотирование корпусов</a></li>
+    <li><a href="page_5.html">Мировые языковые корпусы</a></li>
+    <li><a href="page_6.html">Библиографический список</a></li>
+	<li><a href="page_7.html">Тестирование</a></li>
+  </div>
+  </ul>
+</div>
+<header> 
+<div><h1 class="first"> Аннотирование корпусов </h1></div>
+<hr/> 
+</header>
+<div class="container">
+<table border = "1">
+	<tr>
+	<td>
+<section class="second">
+	<p>Для любого корпуса важно быть не только информативным, но и содержать понятный для пользователя и исследователя <a href="index.html#interface">интерфейс</a>, а этого разработчик корпуса текстов может добиться благодаря качественно сформированной и оформленной <a href="index.html#annotation">разметке</a>. Например, намного удобнее ориентироваться по тексту, в котором каждой части речи приписаны её лексические и грамматические особенности, такие как падеж, род, число и т.д.</p>
+		<h3>Основные правила <a href="index.html#annotation">аннотирования</a>:</h3>
+	<ol>
+		<li>Интерфейс должен быть дружественным, тем самым являться понятным для пользователя, или содержать понятную инструкцию;</li>
+		<li>Разметка общедоступного корпуса должна быть основана на общепринятых правилах языка или же содержать знакомые понятия;</li>
+		<li>Инструменты сортировки должны соответствовать правилу непротиворечивости;</li>
+		<li>Должны быть указаны технические или юридические ограничения использования корпуса.</li>
+	</ol>
+		<h3>Типы лингвистического аннотирования в целом совпадают с уровнями языка: </h3>
+	<ol>
+		<li><strong>звуковой:</strong> звук (аллофон);</li>
+		<li><strong>просодический:</strong> фонетическое слово (или фраза);</li>
+		<li><strong>словообразовательный:</strong> морфема;</li>
+		<li><strong>морфологический:</strong> словоформа;</li>
+		<li><strong>лексический:</strong> лексема;</li>
+		<li><strong>синтаксический:</strong> предложение.</li>
+	</ol>
+	<p>Аннотирование можно осуществлять вручную, а можно использовать для этого достижения современной науки. Для того чтобы научить машину обрабатывать какой-либо текст на естественном языке, нужно разложить его ей в понятной форме, то есть последовательно. </p>
+	<h3>Уровни обработки <a href="index.html#estlan">ЕЯ</a>:</h3>
+	<ol>
+		<li><strong>Графематический</strong> (<i>токенизация</i> – разбиение текста на единицы (&#8776; слова) для дальнейшей обработки и лемматизация – определение для всех токенов их начальной формы);</li>
+		<li><strong>Морфологический</strong> (<i>POS tagging</i> = частеречная разметка – определение части речи и грамматических характеристик слов в тексте);</li>
+		<li><strong>Синтаксический</strong> (<i>parsing</i> – приписывание определённых синтаксических признаков слову или сочетанию слов);</li>
+		<li><strong>Семантический</strong> (<i>semantic annotation</i> – включение лексемы в определённый лексико-семантический класс и <i>semantic network</i> – создание связанной сети семантических отношений между лексемами);</li>
+		<li><strong>Прагматический</strong> (<i>дискурсивный</i>, т.е. обработка текста в целом и адек-ватная реакция системы).</li>
+	</ol>
+	<p>Однако большинство корпусов текстов не могут включать в себя все типы разметок, ибо это порождает множество противоречий и непоследовательностей. Кроме того, большие сложности возникают при попытке описания семантического компонента языковых единиц. Это приводит к сложностям в автоматическом аннотировании текстов на естественном языке. </p>
+	<p>В процессе аннотирования текстов на ЕЯ нужно ориентироваться не только на их грамматическую форму, но и действовать на опережение. Схемы семантических сетей могли бы быть очень полезными с этом, к тому же они применяются в данный момент при осуществлении автоматического перевода с одного языка на другой как модели языкового механизма.  </p>
+	<p>«Создание языковых ресурсов, ориентированных на автоматическую обработку текста, — довольно трудоёмкий процесс, поэтому естественной является попытка автоматизировать их создание и начальное наполнение на основе аннотированного корпуса текстов» [<a href="page_6.html#10">10</a>,С.9]. </p>
+	<h3>Тестирование </h3> 
+	</section>
+<form class="second">
+<p><strong>Вопрос №1:</strong> С чем совпадают типы лингвистического аннотирования?</p>
+    <label><input type="radio" name="pov" value="0"/>С процессом монофтонгизации дифтонгов </label><br/>
+    <label><input type="radio" name="pov" value="1"/>С уровнями языка</label><br/>
+    <label><input type="radio" name="pov" value="0"/>С количеством строк в коде</label><br/>
+    <label><input type="radio" name="pov" value="0"/>С уровнем интеллекта лингвиста-иледователя</label>	
+	
+	<p><strong>Вопрос №2:</strong> Разбиение текста на единицы - это</p>
+	<select name="definition1">
+    <option value="1">токенизация</option>
+    <option value="0">парсинг</option>
+    <option value="0">аннотация</option>
+	<option value="0">частеречная разметка</option>
+  </select>
+	
+	<p><strong>Вопрос №3:</strong> Другими словами, аннотирование - это</p>
+    <label><input type="radio" name="vop" value="1"/>Приписывание тегов</label><br>
+    <label><input type="radio" name="vop" value="0"/>Удаление лишнего </label><br>
+    <label><input type="radio" name="vop" value="0"/>Корректировка текста</label><br>
+    <label><input type="radio" name="vop" value="0"/>Поиск слабых мест в программе </label>	
+	
+	<p><strong>Вопрос №4:</strong> Что происходит на синтаксическом уровне обработки ЕЯ?</p>
+	<select name="definition2">
+    <option value="0">частеречная разетка</option>
+    <option value="0">токенизация</option>
+    <option value="1">парсинг</option>
+	<option value="0">семантическая аннотация</option>
+  </select>
+	<br/><br/>
+    <input type="button" id="calc" value="Подсчитать баллы">
+    <input type="reset" value="Сброс">	
+	<p> Итого баллов:  <input type="text" size="2" name="result" readonly> </p>
+   <h4>*БОНУСНЫЙ ВОПРОС*</h4>
+   
+	<p><strong>Вопрос №5:</strong> Укажите уровни обработки ЕЯ:</p>
+   <input type="checkbox" id="check0" value="1" />Морфологический <br/>
+   <input type="checkbox" id="check1" value="1" />Графематический <br/>
+   <input type="checkbox" id="check2" value="0" />Ономасиологический<br/>
+   <input type="checkbox" id="check3" value="0" />Синтетический<br/>
+   <br/>
+    <input type="button" value="Результат" onclick="countChecked();"/>
+	<input type="reset" value="Сброс">
+	<p>Итого баллов: <input type="text" id="myTotal" size="2" readonly></p>
+</form>	
+</td>
+</tr>
+</div>
+<script>
+calc.onclick = function(){
+		var myform = this.form;	
+	  myform.result.value = +myform.vop.value + +myform.pov.value + +myform.definition1.value + +myform.definition2.value;
+   }; 
+   function countChecked(){
+	var checkedVal = 0; 
+	for(var i=0;i<4;i++){
+	 myObj = document.getElementById('check'+i); 
+	 if(myObj.checked==true){
+checkedVal = checkedVal + parseInt(myObj.value); 
+}
+	}
+	document.getElementById('myTotal').value = checkedVal;
+   }
+
+</script>	
+<footer> 
+	<div id="footer">
+        <span>Выполнила: Студентка группы ЛМ-137 Савельева Арина leinshepard@gmail.com</span>
+	</div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+	
